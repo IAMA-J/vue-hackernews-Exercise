@@ -38,12 +38,19 @@
 首先来看执行”npm run dev”时候最先执行的build/dev-server.js文件。该文件主要完成下面几件事情：
 
 > 检查node和npm的版本
+
 > 引入相关插件和配置
+
 > 创建express服务器和webpack编译器
+
 > 配置开发中间件（webpack-dev-middleware）和热重载中间件（webpack-hot-middleware）
+
 > 挂载代理服务和中间件
+
 > 配置静态资源
+
 > 启动服务器监听特定端口（8080）
+
 > 自动打开浏览器并打开特定网址（localhost:8080）
 
 ###### 说明： 
